@@ -1,0 +1,155 @@
+# Corpus Manifest and Recommended Reading Order
+
+## Purpose
+
+This document is a compact map of the current `docs/codex/` discovery corpus.
+
+Its purpose is to help with:
+
+- reading the artifacts in a sensible order,
+- identifying which docs are descriptive versus triage-oriented,
+- preparing the eventual handoff into the ScholarComp repo.
+
+## Recommended Reading Order
+
+If someone is new to the corpus, the most effective order is:
+
+## 1. Orientation
+
+1. `SOURCE_TRACEABILITY_INDEX.md`
+2. `FIRST_PASS_EXISTING_PLATFORM_CATALOG.md`
+3. `GLOSSARY_FIRST_PASS.md`
+
+Why:
+
+- establishes provenance, vocabulary, and broad platform shape
+
+## 2. Product Shape
+
+4. `FIRST_PASS_CAPABILITY_MAP.md`
+5. `FIRST_PASS_WORKFLOW_CATALOG.md`
+6. `FIRST_PASS_ROLE_PERMISSION_MATRIX.md`
+
+Why:
+
+- clarifies what the product does, who uses it, and how workflows break down
+
+## 3. Cross-Cutting Constraints
+
+7. `FIRST_PASS_CONFIGURATION_SETTINGS_SPEC.md`
+8. `FIRST_PASS_SETTINGS_TAG_INVENTORY.md`
+9. `FIRST_PASS_NON_FUNCTIONAL_REQUIREMENTS.md`
+10. `FIRST_PASS_TENANCY_ACCESS_MODEL.md`
+
+Why:
+
+- these documents shape architecture and scoping across nearly every domain
+
+## 4. Core Domain Depth
+
+11. `FIRST_PASS_DATA_STATE_MODEL.md`
+12. `FIRST_PASS_BUSINESS_RULES_CATALOG.md`
+13. `FIRST_PASS_PAIRING_AND_ROUND_GENERATION_DEEP_DIVE.md`
+14. `FIRST_PASS_RESULTS_AND_ADVANCEMENT_DEEP_DIVE.md`
+15. `FIRST_PASS_JUDGE_ROOM_ASSIGNMENT_DEEP_DIVE.md`
+
+Why:
+
+- these are the highest-value business-domain artifacts
+
+## 5. Supporting and Specialized Domains
+
+16. `FIRST_PASS_REPORTING_PRINT_EXPORT_DEEP_DIVE.md`
+17. `FIRST_PASS_SPECIALIZED_GOV_BODY_AND_PROGRAM_MODES.md`
+
+Why:
+
+- captures parity-critical outputs and affiliation/program variants
+
+## 6. Triage and Decision Support
+
+18. `LIGHTWEIGHT_PARITY_MATRIX.md`
+19. `EVIDENCE_BASED_RELEASE1_CANDIDATE_SHORTLIST.md`
+20. `SOURCE_CONFLICT_AND_AMBIGUITY_REGISTER.md`
+21. `SME_VALIDATION_QUESTION_SET.md`
+
+Why:
+
+- these docs help turn source analysis into planning inputs
+
+## Document Types
+
+## Descriptive Inventory
+
+- `FIRST_PASS_EXISTING_PLATFORM_CATALOG.md`
+- `GLOSSARY_FIRST_PASS.md`
+- `FIRST_PASS_CAPABILITY_MAP.md`
+- `FIRST_PASS_WORKFLOW_CATALOG.md`
+- `FIRST_PASS_ROLE_PERMISSION_MATRIX.md`
+- `FIRST_PASS_CONFIGURATION_SETTINGS_SPEC.md`
+- `FIRST_PASS_SETTINGS_TAG_INVENTORY.md`
+- `FIRST_PASS_DATA_STATE_MODEL.md`
+
+## Deep Domain Analysis
+
+- `FIRST_PASS_BUSINESS_RULES_CATALOG.md`
+- `FIRST_PASS_PAIRING_AND_ROUND_GENERATION_DEEP_DIVE.md`
+- `FIRST_PASS_RESULTS_AND_ADVANCEMENT_DEEP_DIVE.md`
+- `FIRST_PASS_JUDGE_ROOM_ASSIGNMENT_DEEP_DIVE.md`
+- `FIRST_PASS_REPORTING_PRINT_EXPORT_DEEP_DIVE.md`
+- `FIRST_PASS_SPECIALIZED_GOV_BODY_AND_PROGRAM_MODES.md`
+
+## Cross-Cutting Constraints
+
+- `FIRST_PASS_NON_FUNCTIONAL_REQUIREMENTS.md`
+- `FIRST_PASS_TENANCY_ACCESS_MODEL.md`
+- `SOURCE_TRACEABILITY_INDEX.md`
+
+## Triage and Next-Step Inputs
+
+- `LIGHTWEIGHT_PARITY_MATRIX.md`
+- `EVIDENCE_BASED_RELEASE1_CANDIDATE_SHORTLIST.md`
+- `SOURCE_CONFLICT_AND_AMBIGUITY_REGISTER.md`
+- `SME_VALIDATION_QUESTION_SET.md`
+
+## Suggested Handoff Package For ScholarComp Repo
+
+When this work moves to the ScholarComp repo, the minimum recommended handoff package is:
+
+- `SOURCE_TRACEABILITY_INDEX.md`
+- `FIRST_PASS_CAPABILITY_MAP.md`
+- `FIRST_PASS_WORKFLOW_CATALOG.md`
+- `FIRST_PASS_CONFIGURATION_SETTINGS_SPEC.md`
+- `FIRST_PASS_DATA_STATE_MODEL.md`
+- `FIRST_PASS_BUSINESS_RULES_CATALOG.md`
+- `FIRST_PASS_PAIRING_AND_ROUND_GENERATION_DEEP_DIVE.md`
+- `FIRST_PASS_RESULTS_AND_ADVANCEMENT_DEEP_DIVE.md`
+- `FIRST_PASS_JUDGE_ROOM_ASSIGNMENT_DEEP_DIVE.md`
+- `FIRST_PASS_NON_FUNCTIONAL_REQUIREMENTS.md`
+- `LIGHTWEIGHT_PARITY_MATRIX.md`
+- `EVIDENCE_BASED_RELEASE1_CANDIDATE_SHORTLIST.md`
+- `SOURCE_CONFLICT_AND_AMBIGUITY_REGISTER.md`
+- `SME_VALIDATION_QUESTION_SET.md`
+
+## Suggested Next Artifacts If Discovery Continues Here
+
+If more source-analysis work is done in this repo before moving to ScholarComp, the most useful remaining documents are:
+
+- a detailed settings classification register
+- a result-set and publication artifact inventory
+- a recovery-workflow frequency hypothesis doc
+- a source-backed “must preserve” list for agent briefs
+
+## Current Corpus Role
+
+This corpus should be treated as:
+
+- clean-room source analysis
+- descriptive requirements input
+- planning fuel
+
+It should not yet be treated as:
+
+- final product architecture
+- final release commitment
+- final ScholarComp service mapping
