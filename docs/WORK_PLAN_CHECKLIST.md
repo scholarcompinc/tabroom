@@ -16,11 +16,12 @@ Primary references:
 
 - [TABROOM_REBUILD_PLAN.md](/home/jeloni/tabroom/TABROOM_REBUILD_PLAN.md)
 - [EXISTING_PLATFORM_CATALOG.md](/home/jeloni/tabroom/docs/EXISTING_PLATFORM_CATALOG.md)
+- [Handoff Package Index](/home/jeloni/tabroom/claude/HANDOFF_INDEX.md)
 
 ## Status Snapshot
 
 - Branch: `rebuild-planning`
-- Current phase: `Planning / early discovery`
+- Current phase: `Phase 4 complete — ready for ScholarComp-side mapping`
 - Last updated: `2026-03-13`
 
 ## Phase 0: Program Gates
@@ -29,115 +30,117 @@ Primary references:
 
 - [ ] Legal review completed and documented
 - [ ] Market/package model decided
-- [ ] Workflow parity vs UI parity decision made
-- [ ] Initial tenancy model decision made
+- [x] Workflow parity vs UI parity decision made — workflow parity chosen
+- [x] Initial tenancy model decision made — tournament-as-primary-tenant
 - [ ] Main App vs PMC split approved
-- [ ] Configuration philosophy agreed
+- [x] Configuration philosophy agreed — no EAV, typed columns with schema validation
 - [ ] Domain expert access path identified
-- [ ] Initial Release 1 scope standard agreed
+- [x] Initial Release 1 scope standard agreed — 78 capabilities, debate + speech
 
 ### Operating Guardrails
 
-- [ ] Clean-room rules accepted
+- [x] Clean-room rules accepted
 - [ ] Decision log established
 - [ ] Testing guardrails established
-- [ ] Agent coordination rules acknowledged
-- [ ] Requirements artifact template approach agreed
+- [x] Agent coordination rules acknowledged
+- [x] Requirements artifact template approach agreed
 
 Completion criteria:
 
 - All load-bearing decisions have written outcomes
 - Remaining open questions are tracked explicitly, not implied
 
-## Phase 1: Existing Platform Discovery
+## Phase 1: Existing Platform Discovery ✅
 
 This phase should stay descriptive and source-grounded.
 
 ### Existing Platform Catalog
 
-- [ ] Capability domains populated
-- [ ] Role inventory populated
-- [ ] Workflow inventory populated
-- [ ] Route and surface inventory populated
-- [ ] Data and entity inventory populated
-- [ ] Settings and configuration inventory populated
-- [ ] Reports and exports inventory populated
-- [ ] Integrations inventory populated
-- [ ] Algorithmically complex areas populated
-- [ ] Documentation coverage assessment populated
-- [ ] Unknowns and open questions section populated
+- [x] Capability domains populated → `capability_batch_a.md` through `capability_batch_f.md`
+- [x] Role inventory populated → `role_inventory.md`
+- [x] Workflow inventory populated → `workflow_inventory.md`
+- [x] Route and surface inventory populated → covered in capability batches
+- [x] Data and entity inventory populated → `data_entity_inventory.md`
+- [x] Settings and configuration inventory populated → `settings_configuration_inventory.md`
+- [x] Reports and exports inventory populated → `reports_and_integrations.md`
+- [x] Integrations inventory populated → `reports_and_integrations.md`
+- [x] Algorithmically complex areas populated → `algorithmically_complex_areas.md`
+- [x] Documentation coverage assessment populated → `documentation_coverage.md`
+- [x] Unknowns and open questions section populated → `unknowns_and_open_questions.md`
 
 ### Initial Discovery Support Artifacts
 
-- [ ] Lightweight parity matrix started
-- [ ] Glossary starter expanded
-- [ ] Source traceability conventions applied
+- [x] Lightweight parity matrix started → `parity_matrix.md`
+- [x] Glossary starter expanded → `glossary.md`
+- [x] Source traceability conventions applied
 
-Completion criteria:
+Completion criteria: ✅
 
 - Major product areas are inventoried with evidence
 - Overlapping legacy surfaces are documented, not collapsed
 - Documentation strength is visible per domain
 
-## Phase 2: Requirements Corpus Build
+## Phase 2: Requirements Corpus Build ✅
 
 These artifacts convert discovery into normalized product requirements.
 
 ### Core Artifacts
 
-- [ ] Existing Platform Catalog is stable enough for downstream use
-- [ ] Capability Map created
-- [ ] Role and Permission Matrix created
-- [ ] Workflow Catalog created
-- [ ] Business Rules Catalog created
-- [ ] Data and State Model Pack created
-- [ ] Tenancy and Access Model created
-- [ ] Configuration and Settings Spec created
-- [ ] Non-Functional Requirements Catalog created
-- [ ] ScholarComp Reuse Fitness Assessment prepared
-- [ ] Parity Matrix expanded
-- [ ] Glossary and Terminology Map created
+- [x] Existing Platform Catalog is stable enough for downstream use
+- [x] Capability Map created → `capability_map.md`
+- [x] Role and Permission Matrix created → `role_permission_matrix.md`
+- [x] Workflow Catalog created → `workflow_catalog_detailed.md`
+- [x] Business Rules Catalog created → `business_rules_catalog.md`
+- [x] Data and State Model Pack created → `data_state_model.md`
+- [x] Tenancy and Access Model created → `tenancy_access_model.md`
+- [x] Configuration and Settings Spec created → `configuration_settings_spec.md`
+- [x] Non-Functional Requirements Catalog created → `nonfunctional_requirements.md`
+- [x] ScholarComp Reuse Fitness Assessment prepared → `scholarcomp_reuse_assessment.md`
+- [x] Parity Matrix expanded → `parity_matrix.md` (103 capabilities)
+- [x] Glossary and Terminology Map created → `glossary.md`
 
-Completion criteria:
+Completion criteria: ✅
 
 - Release 1 candidate capabilities are identifiable
 - High-risk business rules are explicitly documented
 - Debate, speech, and congress differences remain visible
 
-## Phase 3: Release 1 Triage
+## Phase 3: Release 1 Triage ✅
 
-- [ ] Feature frequency / criticality signals added to scope decisions
-- [ ] Every-tournament workflows isolated
-- [ ] Most-tournament workflows isolated
-- [ ] Some-tournament and rare workflows marked for later
-- [ ] Release 1 operating core agreed
-- [ ] Release 2 and Release 3 candidate areas grouped
+- [x] Feature frequency / criticality signals added to scope decisions
+- [x] Every-tournament workflows isolated
+- [x] Most-tournament workflows isolated
+- [x] Some-tournament and rare workflows marked for later
+- [x] Release 1 operating core agreed → 78 capabilities (70%)
+- [x] Release 2 and Release 3 candidate areas grouped
 
-Completion criteria:
+Artifact: `release1_triage.md` — 12 concrete scope decisions
+
+Completion criteria: ✅
 
 - Release 1 scope is based on evidence, not intuition
 - Rare or niche features are deliberately deferred, not accidentally omitted
 
-## Phase 4: ScholarComp Handoff Preparation
-
-Do this after the source-analysis corpus is strong enough.
+## Phase 4: ScholarComp Handoff Preparation ✅
 
 ### Handoff Package
 
-- [ ] Existing Platform Catalog ready
-- [ ] Capability Map ready
-- [ ] Role and Permission Matrix ready
-- [ ] Workflow Catalog ready
-- [ ] Business Rules Catalog ready
-- [ ] Data and State Model Pack ready
-- [ ] Tenancy and Access Model ready
-- [ ] Configuration and Settings Spec ready
-- [ ] Non-Functional Requirements Catalog ready
-- [ ] Parity Matrix ready
-- [ ] Glossary and Terminology Map ready
-- [ ] Source provenance notes included
+- [x] Existing Platform Catalog ready
+- [x] Capability Map ready
+- [x] Role and Permission Matrix ready
+- [x] Workflow Catalog ready
+- [x] Business Rules Catalog ready
+- [x] Data and State Model Pack ready
+- [x] Tenancy and Access Model ready
+- [x] Configuration and Settings Spec ready
+- [x] Non-Functional Requirements Catalog ready
+- [x] Parity Matrix ready
+- [x] Glossary and Terminology Map ready
+- [x] Source provenance notes included → `HANDOFF_INDEX.md`
 
-Completion criteria:
+Artifact: `HANDOFF_INDEX.md` — master index with provenance and critical findings
+
+Completion criteria: ✅
 
 - Artifacts are clean-room descriptive
 - ScholarComp mapping can begin without reopening basic source discovery
@@ -161,14 +164,17 @@ Completion criteria:
 
 ## Immediate Next Actions
 
-- [ ] Finish the top half of the Existing Platform Catalog
-- [ ] Create the first lightweight parity matrix
-- [ ] Expand the glossary
-- [ ] Create the Configuration and Settings Spec
-- [ ] Create the Workflow Catalog for Release 1 candidate flows
-- [ ] Start the Business Rules Catalog
+- [x] ~~Finish the top half of the Existing Platform Catalog~~
+- [x] ~~Create the first lightweight parity matrix~~
+- [x] ~~Expand the glossary~~
+- [x] ~~Create the Configuration and Settings Spec~~
+- [x] ~~Create the Workflow Catalog for Release 1 candidate flows~~
+- [x] ~~Start the Business Rules Catalog~~
+- [ ] Begin Phase 5 in ScholarComp repo — service boundary mapping
+- [ ] Resolve remaining Phase 0 gates (legal review, market model, PMC split, domain expert access)
 
 ## Notes
 
 - Keep this file focused on sequencing and status.
 - Put detailed acceptance checklists in a separate artifact checklist file.
+- All Phase 1–4 artifacts are in `/home/jeloni/tabroom/claude/`. See `HANDOFF_INDEX.md` for the complete inventory.
