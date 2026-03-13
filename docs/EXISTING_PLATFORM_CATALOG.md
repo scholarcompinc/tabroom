@@ -68,6 +68,7 @@ Populate one subsection per domain.
 
 Suggested starting domains:
 
+- User accounts and identity
 - Tournament creation and administration
 - Tournament settings and configuration
 - Schedule, rounds, and timeslots
@@ -80,6 +81,7 @@ Suggested starting domains:
 - Pairing, paneling, and schematics
 - Ballots, scoring, and audits
 - Results, breaks, tiebreakers, and publication
+- Districts, qualifications, and advancement pipelines
 - Sweepstakes and awards
 - Financials, invoices, and fines
 - Public pages and discovery
@@ -105,6 +107,7 @@ For each domain, capture:
 - Documentation sources
 - Code sources
 - Complexity level
+- Feature frequency / criticality
 - Notes and open questions
 
 ## Role Inventory
@@ -139,6 +142,7 @@ Catalog workflows before turning them into detailed requirements.
 
 Suggested starting workflow families:
 
+- Create and manage user accounts, profiles, and linked identities
 - Request or create a tournament
 - Clone/setup a tournament
 - Configure events and settings
@@ -155,6 +159,7 @@ Suggested starting workflow families:
 - Generate awards and sweepstakes
 - Produce financial reports and invoices
 - Manage public pages and paradigms
+- Handle mid-tournament corrections and recovery
 
 For each workflow, capture:
 
@@ -198,6 +203,7 @@ Catalog major entities without yet designing the new data model.
 Suggested groupings:
 
 - tournament/event structure
+- user accounts and identity
 - participants and organizations
 - judging and conflicts
 - rounds/panels/rooms
@@ -215,6 +221,10 @@ For each entity or entity cluster, capture:
 - lifecycle significance
 - source tables/models
 - notes/open questions
+
+Special note:
+
+- treat legacy `*_setting` / EAV-style entities as a distinct cluster of the product surface, not just as incidental supporting tables; they collectively represent a large share of current configuration behavior.
 
 ## Settings and Configuration Inventory
 
@@ -270,6 +280,7 @@ Suggested examples:
 - SMS/push
 - NSDA APIs and reporting
 - payment systems
+- tabroom.com data import/export and tournament cloning flows
 - S3/file storage
 - online room/video integrations
 - GeoIP/location data
@@ -293,6 +304,8 @@ Suggested starting list:
 - speech paneling
 - congress grouping
 - judge assignment optimization
+- speaker order assignment
+- room quality / ADA matching
 - burden calculation
 - conflicts/strikes/prefs
 - tiebreak logic
