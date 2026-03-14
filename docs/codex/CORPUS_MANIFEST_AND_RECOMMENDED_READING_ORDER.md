@@ -95,8 +95,11 @@ Why:
 
 36. `LIGHTWEIGHT_PARITY_MATRIX.md`
 37. `EVIDENCE_BASED_RELEASE1_CANDIDATE_SHORTLIST.md`
-38. `SOURCE_CONFLICT_AND_AMBIGUITY_REGISTER.md`
-39. `SME_VALIDATION_QUESTION_SET.md`
+38. `RESULT_REPORT_AND_PRINT_ARTIFACT_FREQUENCY_HYPOTHESIS.md`
+39. `AWARDS_AND_QUALIFIER_FREQUENCY_HYPOTHESIS.md`
+40. `SOURCE_BACKED_RECOVERY_FREQUENCY_SEVERITY_RANKING.md`
+41. `SOURCE_CONFLICT_AND_AMBIGUITY_REGISTER.md`
+42. `SME_VALIDATION_QUESTION_SET.md`
 
 Why:
 
@@ -152,6 +155,9 @@ Why:
 
 - `LIGHTWEIGHT_PARITY_MATRIX.md`
 - `EVIDENCE_BASED_RELEASE1_CANDIDATE_SHORTLIST.md`
+- `RESULT_REPORT_AND_PRINT_ARTIFACT_FREQUENCY_HYPOTHESIS.md`
+- `AWARDS_AND_QUALIFIER_FREQUENCY_HYPOTHESIS.md`
+- `SOURCE_BACKED_RECOVERY_FREQUENCY_SEVERITY_RANKING.md`
 - `SOURCE_CONFLICT_AND_AMBIGUITY_REGISTER.md`
 - `SME_VALIDATION_QUESTION_SET.md`
 
@@ -186,6 +192,9 @@ When this work moves to the ScholarComp repo, the minimum recommended handoff pa
 - `FIRST_PASS_NON_FUNCTIONAL_REQUIREMENTS.md`
 - `LIGHTWEIGHT_PARITY_MATRIX.md`
 - `EVIDENCE_BASED_RELEASE1_CANDIDATE_SHORTLIST.md`
+- `RESULT_REPORT_AND_PRINT_ARTIFACT_FREQUENCY_HYPOTHESIS.md`
+- `AWARDS_AND_QUALIFIER_FREQUENCY_HYPOTHESIS.md`
+- `SOURCE_BACKED_RECOVERY_FREQUENCY_SEVERITY_RANKING.md`
 - `SOURCE_CONFLICT_AND_AMBIGUITY_REGISTER.md`
 - `SME_VALIDATION_QUESTION_SET.md`
 
@@ -194,9 +203,9 @@ When this work moves to the ScholarComp repo, the minimum recommended handoff pa
 If more source-analysis work is done in this repo before moving to ScholarComp, the most useful remaining documents are:
 
 - a detailed settings classification register
-- a report/result-set and print-artifact frequency hypothesis doc
-- an awards/qualifier frequency hypothesis doc
-- a source-backed recovery frequency/severity ranking
+- a source-backed workflow-to-service-boundary warning register
+- a high-risk ambiguity shortlist for SME sessions
+- a canonical “must not simplify” parity checklist
 
 ## Current Corpus Role
 
